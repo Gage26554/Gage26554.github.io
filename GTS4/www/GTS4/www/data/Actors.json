@@ -1,8 +1,0 @@
-[
-null,
-{"id":1,"battlerName":"Fighting Leon","characterIndex":0,"characterName":"Leon walk","classId":5,"equips":[5,1,2,5,0],"faceIndex":0,"faceName":"Character Leon","traits":[],"initialLevel":1,"maxLevel":99,"name":"Leon S. Kenndy","nickname":"Leon","note":"","profile":"Error Game Fusion detected call support to return \ncharacter to correct game. 717-(&*@#^@(&)! Thank You"},
-{"id":2,"battlerName":"Gage Battler","characterIndex":0,"characterName":"Walk Gage","classId":6,"equips":[11,1,14,12,13],"faceIndex":0,"faceName":"Character Gage","traits":[],"initialLevel":1,"maxLevel":99,"name":"Gage","nickname":"","note":"","profile":"A random guy named Gage that we found walking home from\nschool. We ask if he wanted to be in a game. He's here."},
-{"id":3,"battlerName":"Actor3_8","characterIndex":7,"characterName":"Actor3","classId":3,"equips":[3,0,2,3,4],"faceIndex":7,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Marsha","nickname":"","note":"","profile":""},
-{"id":4,"battlerName":"Actor2_7","characterIndex":6,"characterName":"Actor2","classId":4,"equips":[4,0,2,3,4],"faceIndex":6,"faceName":"Actor2","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lucius","nickname":"","note":"","profile":""},
-{"id":5,"battlerName":"Fighting Ashley","characterIndex":0,"characterName":"Ashley Walk","classId":5,"equips":[10,0,8,9,0],"faceIndex":0,"faceName":"Character Ashley","traits":[{"code":14,"dataId":8,"value":1},{"code":14,"dataId":6,"value":1},{"code":14,"dataId":10,"value":1}],"initialLevel":3,"maxLevel":99,"name":"Ashley","nickname":"Ash","note":"","profile":"A crazy pilot? Who knows? But we do know she's pretty \ngood at fighting. Wonder why she was In prison though."}
-]
