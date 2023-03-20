@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Test</title>
+    <style>
+        #center {
+            text-align: center;
+        }
+
+        .scroll {
+            width: 800px;
+        }
+
+        #page {
+            margin: auto;
+            width: 800px;
+            height: 850px;
+            border: 750px;
+            background-color: aqua;
+            text-align: center;
+            box-shadow: black;
+            box-shadow: 7px 7px 5px;
+        }
+
+       #morebox{
+            margin: 10px 20px;
+        padding: 5px;
+        width: 250px;
+        height: 430px;
+        border: 1px solid white;
+        background-color: white;
+        float: right;
+        justify-content: space-between;
+        text-align: left;
+       }
+
+       #box {
+        margin: auto;
+        border: 750px;
+        width: 780px;
+        height: 760px;
+        background-color: green;
+        text-align: center;
+       }
+
+       #otherboxes {
+        margin: 8px;
+        padding: 5px;
+        width: 450px;
+        height: 680px;
+        border: 1px solid purple;
+        background-color: purple;
+        float: left;
+       }
+       .doxs {
+            margin: 10px;
+            background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        Border-color: gray black black grey;
+        text-align: left;
+        height: 200px;
+
+       } 
+    </style>
+</head>
+<body>
+    <div id="page">
+    <h1>H1 is centered on the page</h1>
+    
+    <marquee>
+        "This text is scrolling to the left inside an 800px box"
+    </marquee>
+    <div id="box">
+    <div id="morebox">
+        <p>This text is a paragraph, but not in italics because it's not in a "blog post".</p>
+        <p>This is where the links go this takes up 30% of the box this column is in.</p>
+        <h3>My Favorite Games</h3>
+        <ul>
+            <li>
+                
+                <a href="https://www.neopets.com/">Neopets </a> 
+            </li>
+            <li>
+                
+                <a href="https://play.runescape.com/oldschool">Runescape</a>
+            </li>
+            <li>
+                
+                <a href="https://blog.counter-strike.net/index.php/category/updates/#">Counter-Strike</a>
+            </li>
+            <li>
+                
+                <a href="https://www.rpgmakerweb.com/">RPG maker</a>
+            </li>
+        </ul>
+        <h3>Game Guides</h3>
+        <ul>
+            <li>
+                
+                <a href="http://www.sunnyneo.com/battledome/improved calculator.php">Battledome Calc</a>
+            </li>
+            <li>
+                
+                <a href="https://d2runewizard.com/runeword-calculator">Rune Calc</a>
+            </li>
+            <li>
+                
+                <a href="https://twhl.info/">TWHL Mapping</a>
+            </li>
+            <li>
+                
+                <a href="https://rpgmaker.fandom.com/wiki/Well Known Figures in the Community">Don's RM2K World</a>
+            </li>
+        </ul>
+    </div>
+    <div id="otherboxes">
+        <div class="doxs">
+            <h2>
+                <strong> H2 in these boxes are bolder</strong>
+            </h2>
+            <p>
+                <i>
+                    "This is a paragraph. the text is italicas. the column these "blog posts" are in take up 60% of the box the column is in. Hint: I
+                    made the parent box a flexbox and jusified the content to "space-around""
+                </i>
+            </p>
+            
+            <div class="doxs">
+                <h2>
+                    <strong>H2 in these boxes are bolder</strong>
+                </h2>
+                <p>
+                    <i>
+                        "This is a paragraph. the text is italicas. the column these "blog posts" are in take up 60% of the box the column is in. Hint: I
+                        made the parent box a flexbox and jusified the content to "space-around""  
+                    </i>
+                </p>
+                </div>
+                <div class="doxs">
+                    </h2>
+                    <strong> H2 in these boxes are bolder</strong>
+                </h2>
+                <p>
+                    <i>
+                        "This is a paragraph. the text is italicas. the column these "blog posts" are in take up 60% of the box the column is in. Hint: I
+                    made the parent box a flexbox and jusified the content to "space-around""
+                    </i>
+                </p>
+            </div>
+            </div>
+            </div>
+            <div id="center"> </div>
+            <div id="scroll"> </div>
+        </div>
+</body>
+</html>
