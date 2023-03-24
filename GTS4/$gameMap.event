@@ -1,0 +1,1 @@
+$gameMap.event(1).canpass($gameMap.event(1).x, $gameMap.event(1).y, $gameVariables.value(19))
